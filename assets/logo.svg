@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 480" role="img" aria-label="Multiservice">
+  <defs>
+    <linearGradient id="pistonGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e8e8e8"/>
+      <stop offset="50%" stop-color="#b0b0b0"/>
+      <stop offset="100%" stop-color="#7a7a7a"/>
+    </linearGradient>
+    <linearGradient id="pistonGrad2" x1="100%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#d4d4d4"/>
+      <stop offset="50%" stop-color="#9a9a9a"/>
+      <stop offset="100%" stop-color="#6e6e6e"/>
+    </linearGradient>
+    <linearGradient id="redBanner" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#e83030"/>
+      <stop offset="100%" stop-color="#b81818"/>
+    </linearGradient>
+    <linearGradient id="blueCircle" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2a5fc4"/>
+      <stop offset="100%" stop-color="#1a3d8f"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+
+  <g fill="#1a1a1a">
+    <rect x="175" y="8" width="50" height="18" rx="2"/>
+    <rect x="130" y="18" width="28" height="16" rx="2" transform="rotate(-25 144 26)"/>
+    <rect x="242" y="18" width="28" height="16" rx="2" transform="rotate(25 256 26)"/>
+    <rect x="95" y="38" width="24" height="14" rx="2" transform="rotate(-40 107 45)"/>
+    <rect x="281" y="38" width="24" height="14" rx="2" transform="rotate(40 293 45)"/>
+    <rect x="68" y="62" width="22" height="13" rx="2" transform="rotate(-55 79 68)"/>
+    <rect x="310" y="62" width="22" height="13" rx="2" transform="rotate(55 321 68)"/>
+  </g>
+
+  <g fill="#1a1a1a">
+    <rect x="175" y="454" width="50" height="18" rx="2"/>
+    <rect x="130" y="446" width="28" height="16" rx="2" transform="rotate(25 144 454)"/>
+    <rect x="242" y="446" width="28" height="16" rx="2" transform="rotate(-25 256 454)"/>
+    <rect x="95" y="428" width="24" height="14" rx="2" transform="rotate(40 107 435)"/>
+    <rect x="281" y="428" width="24" height="14" rx="2" transform="rotate(-40 293 435)"/>
+    <rect x="68" y="405" width="22" height="13" rx="2" transform="rotate(55 79 411)"/>
+    <rect x="310" y="405" width="22" height="13" rx="2" transform="rotate(-55 321 411)"/>
+  </g>
+
+  <g transform="translate(52, 55) rotate(-38 80 185)">
+    <rect x="55" y="0" width="50" height="55" rx="4" fill="url(#pistonGrad)" stroke="#1a1a1a" stroke-width="3"/>
+    <rect x="48" y="55" width="64" height="18" rx="2" fill="#888" stroke="#1a1a1a" stroke-width="2.5"/>
+    <rect x="62" y="73" width="36" height="200" rx="3" fill="url(#pistonGrad)" stroke="#1a1a1a" stroke-width="3"/>
+    <rect x="55" y="273" width="50" height="55" rx="4" fill="url(#pistonGrad)" stroke="#1a1a1a" stroke-width="3"/>
+    <line x1="62" y1="90" x2="98" y2="90" stroke="#666" stroke-width="1.5"/>
+    <line x1="62" y1="130" x2="98" y2="130" stroke="#666" stroke-width="1.5"/>
+    <line x1="62" y1="170" x2="98" y2="170" stroke="#666" stroke-width="1.5"/>
+    <line x1="62" y1="210" x2="98" y2="210" stroke="#666" stroke-width="1.5"/>
+    <line x1="62" y1="250" x2="98" y2="250" stroke="#666" stroke-width="1.5"/>
+  </g>
+
+  <g transform="translate(218, 55) rotate(38 80 185)">
+    <rect x="55" y="0" width="50" height="55" rx="4" fill="url(#pistonGrad2)" stroke="#1a1a1a" stroke-width="3"/>
+    <rect x="48" y="55" width="64" height="18" rx="2" fill="#888" stroke="#1a1a1a" stroke-width="2.5"/>
+    <rect x="62" y="73" width="36" height="200" rx="3" fill="url(#pistonGrad2)" stroke="#1a1a1a" stroke-width="3"/>
+    <rect x="55" y="273" width="50" height="55" rx="4" fill="url(#pistonGrad2)" stroke="#1a1a1a" stroke-width="3"/>
+    <line x1="62" y1="90" x2="98" y2="90" stroke="#666" stroke-width="1.5"/>
+    <line x1="62" y1="130" x2="98" y2="130" stroke="#666" stroke-width="1.5"/>
+    <line x1="62" y1="170" x2="98" y2="170" stroke="#666" stroke-width="1.5"/>
+    <line x1="62" y1="210" x2="98" y2="210" stroke="#666" stroke-width="1.5"/>
+    <line x1="62" y1="250" x2="98" y2="250" stroke="#666" stroke-width="1.5"/>
+  </g>
+
+  <circle cx="200" cy="118" r="52" fill="url(#blueCircle)" stroke="#1a1a1a" stroke-width="3"/>
+  <g fill="#fff" transform="translate(200, 100)">
+    <circle cx="-14" cy="8" r="7" fill="none" stroke="#fff" stroke-width="2.5"/>
+    <circle cx="14" cy="8" r="7" fill="none" stroke="#fff" stroke-width="2.5"/>
+    <path d="M-14 8 L-6 -4 L6 -4 L14 8" fill="none" stroke="#fff" stroke-width="2.5" stroke-linejoin="round"/>
+    <line x1="0" y1="-4" x2="0" y2="-10" stroke="#fff" stroke-width="2.5"/>
+  </g>
+  <g fill="#fff" transform="translate(200, 138)">
+    <rect x="-18" y="-6" width="36" height="12" rx="3"/>
+    <rect x="-12" y="-12" width="24" height="8" rx="2"/>
+    <circle cx="-10" cy="8" r="4" fill="#1a3d8f" stroke="#fff" stroke-width="1.5"/>
+    <circle cx="10" cy="8" r="4" fill="#1a3d8f" stroke="#fff" stroke-width="1.5"/>
+  </g>
+
+  <circle cx="200" cy="362" r="52" fill="url(#blueCircle)" stroke="#1a1a1a" stroke-width="3"/>
+  <path d="M210 332 L188 358 L200 358 L190 392 L218 360 L206 360 Z" fill="#e83030" stroke="#fff" stroke-width="2.5" stroke-linejoin="round"/>
+
+  <g filter="url(#shadow)">
+    <path d="M 55 195 L 345 195 L 370 240 L 345 285 L 55 285 L 30 240 Z" fill="url(#redBanner)" stroke="#1a1a1a" stroke-width="3.5"/>
+  </g>
+
+  <text x="200" y="228" text-anchor="middle" font-family="Arial Black, Arial, sans-serif" font-weight="900" font-size="34" fill="#fff" letter-spacing="2">MULTISERVICE</text>
+  <text x="200" y="252" text-anchor="middle" font-family="Arial, sans-serif" font-weight="700" font-size="11" fill="#fff" letter-spacing="0.5">TALLER DE MECANICA Y ELECTRICIDAD</text>
+  <text x="200" y="272" text-anchor="middle" font-family="Arial, sans-serif" font-weight="700" font-size="14" fill="#fff" letter-spacing="1">AUTOS Y MOTOS</text>
+</svg>

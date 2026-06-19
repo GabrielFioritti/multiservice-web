@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Multiservice - Taller de mecánica y electricidad para autos y motos. Uruguay 2051. Horario corrido de 9 a 17 hs.">
+  <title>Multiservice | Taller de Mecánica y Electricidad</title>
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Barlow:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Barra superior -->
+  <div class="top-bar">
+    <div class="container top-bar__inner">
+      <span class="top-bar__item">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+        Lun a Vie · 9:00 a 17:00 hs
+      </span>
+      <span class="top-bar__item">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+        Uruguay 2051
+      </span>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a href="#inicio" class="header__logo">
+        <img src="assets/logo.svg" alt="Multiservice" width="56" height="67">
+        <span class="header__brand">
+          <strong>Multiservice</strong>
+          <small>Mecánica y Electricidad</small>
+        </span>
+      </a>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Abrir menú" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="nav" id="nav">
+        <a href="#inicio" class="nav__link">Inicio</a>
+        <a href="#servicios" class="nav__link">Servicios</a>
+        <a href="#nosotros" class="nav__link">Nosotros</a>
+        <a href="#contacto" class="nav__link">Contacto</a>
+        <a href="#" class="btn btn--whatsapp btn--sm nav__cta" data-whatsapp>
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.435 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413z"/></svg>
+          WhatsApp
+        </a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero" id="inicio">
+      <div class="hero__bg"></div>
+      <div class="container hero__inner">
+        <div class="hero__content">
+          <span class="hero__badge">Taller especializado · Autos y Motos</span>
+          <h1 class="hero__title">Tu vehículo en las <span>mejores manos</span></h1>
+          <p class="hero__text">Mecánica y electricidad con la confianza de siempre. Diagnóstico, reparación y mantenimiento para que tu auto o moto esté siempre en marcha.</p>
+          <div class="hero__actions">
+            <a href="#" class="btn btn--primary" data-whatsapp>
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.435 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413z"/></svg>
+              Consultar por WhatsApp
+            </a>
+            <a href="#servicios" class="btn btn--outline">Ver servicios</a>
+          </div>
+        </div>
+        <div class="hero__logo-wrap">
+          <img src="assets/logo.svg" alt="Logo Multiservice" class="hero__logo" width="320" height="384">
+        </div>
+      </div>
+    </section>
+
+    <!-- Destacados -->
+    <section class="highlights">
+      <div class="container highlights__grid">
+        <div class="highlight-card">
+          <div class="highlight-card__icon">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
+          </div>
+          <h3>Mecánica general</h3>
+          <p>Reparaciones, frenos, suspensión, embrague y más.</p>
+        </div>
+        <div class="highlight-card">
+          <div class="highlight-card__icon">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+          </div>
+          <h3>Electricidad</h3>
+          <p>Instalación eléctrica, baterías, alternadores y diagnóstico.</p>
+        </div>
+        <div class="highlight-card">
+          <div class="highlight-card__icon">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="7" cy="17" r="3"/><circle cx="17" cy="17" r="3"/><path d="M5 17H3v-6l2-5h9l4 5h3v6h-2"/><path d="M10 6V4h4v2"/></svg>
+          </div>
+          <h3>Autos y motos</h3>
+          <p>Atención especializada para todo tipo de vehículos.</p>
+        </div>
+        <div class="highlight-card">
+          <div class="highlight-card__icon">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+          </div>
+          <h3>Horario corrido</h3>
+          <p>De 9:00 a 17:00 hs, sin interrupción.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Servicios -->
+    <section class="section" id="servicios">
+      <div class="container">
+        <div class="section__header">
+          <span class="section__label">Lo que hacemos</span>
+          <h2 class="section__title">Nuestros servicios</h2>
+          <p class="section__desc">Soluciones completas en mecánica y electricidad para mantener tu vehículo en óptimas condiciones.</p>
+        </div>
+
+        <div class="services__grid">
+          <article class="service-card">
+            <div class="service-card__num">01</div>
+            <h3>Mecánica automotriz</h3>
+            <p>Mantenimiento preventivo y correctivo. Cambio de aceite, filtros, correas, frenos, embrague y reparaciones generales.</p>
+          </article>
+          <article class="service-card">
+            <div class="service-card__num">02</div>
+            <h3>Electricidad del automotor</h3>
+            <p>Diagnóstico y reparación de sistemas eléctricos. Baterías, alternadores, arranques, luces e instalaciones.</p>
+          </article>
+          <article class="service-card">
+            <div class="service-card__num">03</div>
+            <h3>Mecánica de motos</h3>
+            <p>Servicio especializado para motocicletas. Ajustes, reparaciones y puesta a punto para tu moto.</p>
+          </article>
+          <article class="service-card">
+            <div class="service-card__num">04</div>
+            <h3>Diagnóstico</h3>
+            <p>Identificamos el problema antes de reparar. Ahorrá tiempo y dinero con un diagnóstico preciso.</p>
+          </article>
+          <article class="service-card">
+            <div class="service-card__num">05</div>
+            <h3>Frenos y suspensión</h3>
+            <p>Pastillas, discos, amortiguadores y todo lo necesario para tu seguridad en el camino.</p>
+          </article>
+          <article class="service-card">
+            <div class="service-card__num">06</div>
+            <h3>Preparación para VTU</h3>
+            <p>Revisión y acondicionamiento de tu vehículo para la verificación técnica.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Nosotros -->
+    <section class="section section--dark" id="nosotros">
+      <div class="container about">
+        <div class="about__content">
+          <span class="section__label section__label--light">Sobre nosotros</span>
+          <h2 class="section__title section__title--light">Multiservice, tu taller de confianza</h2>
+          <p class="about__text">Somos un taller de mecánica y electricidad con experiencia en autos y motos. En <strong>Multiservice</strong> combinamos trabajo técnico de calidad con atención personalizada, porque sabemos que tu vehículo es parte de tu día a día.</p>
+          <p class="about__text">Nuestro equipo está preparado para resolver desde una falla eléctrica hasta una reparación mecánica compleja. Trabajamos con dedicación y transparencia para que siempre sepas en qué estado está tu vehículo.</p>
+
+          <ul class="about__list">
+            <li>
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+              Mecánica y electricidad en un solo lugar
+            </li>
+            <li>
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+              Atención a autos y motocicletas
+            </li>
+            <li>
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+              Horario corrido de 9:00 a 17:00 hs
+            </li>
+            <li>
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+              Ubicados en Uruguay 2051
+            </li>
+          </ul>
+
+          <a href="#" class="btn btn--primary" data-whatsapp>Agendar consulta</a>
+        </div>
+        <div class="about__visual">
+          <div class="about__logo-card">
+            <img src="assets/logo.svg" alt="Multiservice" width="260" height="312">
+          </div>
+          <div class="about__stats">
+            <div class="stat">
+              <span class="stat__num">+10</span>
+              <span class="stat__label">Años de experiencia</span>
+            </div>
+            <div class="stat">
+              <span class="stat__num">100%</span>
+              <span class="stat__label">Compromiso con el cliente</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta-banner">
+      <div class="container cta-banner__inner">
+        <div>
+          <h2>¿Necesitás revisar tu vehículo?</h2>
+          <p>Escribinos por WhatsApp y te respondemos a la brevedad.</p>
+        </div>
+        <a href="#" class="btn btn--whatsapp btn--lg" data-whatsapp>
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.435 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413z"/></svg>
+          Escribinos ahora
+        </a>
+      </div>
+    </section>
+
+    <!-- Contacto -->
+    <section class="section" id="contacto">
+      <div class="container">
+        <div class="section__header">
+          <span class="section__label">Ubicación</span>
+          <h2 class="section__title">Contacto</h2>
+        </div>
+
+        <div class="contact__grid">
+          <div class="contact__info">
+            <div class="contact__item">
+              <div class="contact__icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              </div>
+              <div>
+                <h4>Dirección</h4>
+                <p>Uruguay 2051</p>
+              </div>
+            </div>
+            <div class="contact__item">
+              <div class="contact__icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+              </div>
+              <div>
+                <h4>Horario</h4>
+                <p>Lunes a viernes<br>9:00 a 17:00 hs · Horario corrido</p>
+              </div>
+            </div>
+            <div class="contact__item">
+              <div class="contact__icon contact__icon--whatsapp">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.435 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413z"/></svg>
+              </div>
+              <div>
+                <h4>WhatsApp</h4>
+                <p><a href="#" class="contact__link" data-whatsapp>Enviar mensaje</a></p>
+                <small class="contact__note">Número próximamente disponible</small>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact__map">
+            <iframe
+              title="Ubicación Multiservice - Uruguay 2051"
+              src="https://maps.google.com/maps?q=Uruguay+2051&output=embed"
+              width="100%"
+              height="100%"
+              style="border:0;"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <img src="assets/logo.svg" alt="Multiservice" width="48" height="58">
+        <div>
+          <strong>Multiservice</strong>
+          <p>Taller de Mecánica y Electricidad · Autos y Motos</p>
+        </div>
+      </div>
+      <div class="footer__links">
+        <a href="#inicio">Inicio</a>
+        <a href="#servicios">Servicios</a>
+        <a href="#nosotros">Nosotros</a>
+        <a href="#contacto">Contacto</a>
+      </div>
+      <p class="footer__copy">&copy; 2026 Multiservice. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <!-- Botón flotante WhatsApp -->
+  <a href="#" class="whatsapp-float" data-whatsapp aria-label="Contactar por WhatsApp">
+    <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.435 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413z"/></svg>
+    <span class="whatsapp-float__tooltip">¡Escribinos!</span>
+  </a>
+
+  <script src="js/config.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
