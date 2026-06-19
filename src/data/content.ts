@@ -65,7 +65,7 @@ export const aboutFeatures = [
   'Autos, motos y todo lo que tenga motor',
   'Auxilios mecánicos en Salto y alrededores',
   'Horario corrido de 9:00 a 17:00 hs',
-  'Ubicados en Uruguay 2073 bis, Salto',
+  'Ubicados en Uruguay 2051, Salto',
 ] as const;
 
 export const navLinks = [
