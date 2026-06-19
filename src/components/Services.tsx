@@ -9,7 +9,7 @@ export function Services() {
           <span className="section__label">Lo que hacemos</span>
           <h2 className="section__title">Nuestros servicios</h2>
           <p className="section__desc">
-            Mecánica, electricidad, mantenimiento y auxilios mecánicos en Salto. Autos, motos y todo lo que tenga motor.
+            Mecánica, electricidad, mantenimiento y auxilios mecánicos en Salto. Autos, motos y todo lo que tenga motor, contamos con POS para que pueda abonar con tarjeta si lo desea.
           </p>
         </div>
 
